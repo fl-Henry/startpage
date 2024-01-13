@@ -88,7 +88,7 @@ a, a:visited, a:hover {
 .box .box-container {
 	background-color: #2E3441;
 	width: 200px;
-	height: 220px;
+	height: 250px;
 	float: left;
 	border-radius: 5px;
 }
@@ -140,7 +140,7 @@ a, a:visited, a:hover {
 }
 
 .container form .search-submit::before {
-	background-image:url(google1.svg);
+	background-image:url(duckduckgo.svg);
 	background-position:center center;
 	fill: white;
 	content:"";
@@ -154,7 +154,7 @@ a, a:visited, a:hover {
 /* ------------- WAVE ANIMATION ------------- */ 
 
 .wave-container .wave{
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	left:0;
 	width:100%;
